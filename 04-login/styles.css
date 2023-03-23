@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #cb2320, #ce1d61);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding:  2rem; /* se modifico */ 
+    box-shadow: 0 5px 10px rgb(71, 3,6, 0.7);
+}
+@media screen and (max-width: 600px) {
+    .ocultar{
+        display: none;
+    }
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+margin-right: 0.5px;
+    height: 21rem;
+    width: 21rem;
+    box-shadow: 0 5px 10px rgb(71, 3,6, 0.7);
+}
+form .title {
+    color: #252525;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;  
+}
+
+form label{
+    margin-bottom: 35px;
+
+}
+
+form label .fa-solid{
+    font-size: 20px;
+    color: #cb2320;
+    margin-left: 10px;
+}
+form label input {
+
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 1px #ce1d61;
+    padding:  0 5px;
+    font-size: 18px;
+}
+form label input::placeholder {
+color: rgb(37, 37,37, 0.5);
+}
+
+.link {
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+form button{
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right, #cb2320, #ce1d61);
+    padding:  10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
